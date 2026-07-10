@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Photo Gallery - Grimwood Family Portal</title>
+  <meta name="description" content="Preserved photo gallery for the Grimwood Family Portal.">
+  <link rel="stylesheet" href="../assets/site.css">
+  <style>
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 12px;
+    }
+
+    .gallery-grid a {
+      display: block;
+      overflow: hidden;
+      aspect-ratio: 4 / 3;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.72);
+    }
+
+    .gallery-grid img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <div class="hero-inner">
+        <nav class="nav" aria-label="Primary">
+          <a class="brand" href="../index.html">
+            <span class="mark">G</span>
+            <span>Grimwood Family</span>
+          </a>
+          <div class="nav-links">
+            <a href="../index.html#family">Family</a>
+            <a href="../index.html#interests">Interests</a>
+            <a href="../index.html#archive">Archive</a>
+            <a href="../index.html#projects">Projects</a>
+          </div>
+        </nav>
+
+        <div class="hero-grid">
+          <div>
+            <div class="kicker">Preserved gallery</div>
+            <h1>Photo Gallery</h1>
+            <p class="lede">
+              This is the retained legacy photo gallery. The original image
+              files are preserved in place while the surrounding Grimwood Family
+              Portal is cleaned up.
+            </p>
+          </div>
+          <aside class="hero-card">
+            <h2>Archive first</h2>
+            <p>
+              This page gives the photo folder a usable public entry point
+              without renaming or removing the underlying image collection.
+            </p>
+          </aside>
+        </div>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <div class="kicker">Sample index</div>
+          <h2>Gallery preview</h2>
+        </div>
+        <p>
+          A fuller curated gallery can be built later. For now, these thumbnails
+          prove the retained photo collection is reachable.
+        </p>
+      </div>
+      <div class="gallery-grid">
+        <a href="IMG_5876_1.jpg"><img src="tn_IMG_5876_1.jpg" alt="Gallery image 1"></a>
+        <a href="IMG_5877_2.jpg"><img src="tn_IMG_5877_2.jpg" alt="Gallery image 2"></a>
+        <a href="IMG_5879_3.jpg"><img src="tn_IMG_5879_3.jpg" alt="Gallery image 3"></a>
+        <a href="IMG_5881_4.jpg"><img src="tn_IMG_5881_4.jpg" alt="Gallery image 4"></a>
+        <a href="IMG_5884_5.jpg"><img src="tn_IMG_5884_5.jpg" alt="Gallery image 5"></a>
+        <a href="IMG_5886_6.jpg"><img src="tn_IMG_5886_6.jpg" alt="Gallery image 6"></a>
+        <a href="IMG_5887_7.jpg"><img src="tn_IMG_5887_7.jpg" alt="Gallery image 7"></a>
+        <a href="IMG_5892_8.jpg"><img src="tn_IMG_5892_8.jpg" alt="Gallery image 8"></a>
+        <a href="IMG_5893_9.jpg"><img src="tn_IMG_5893_9.jpg" alt="Gallery image 9"></a>
+        <a href="IMG_5896_10.jpg"><img src="tn_IMG_5896_10.jpg" alt="Gallery image 10"></a>
+        <a href="IMG_5901_11.jpg"><img src="tn_IMG_5901_11.jpg" alt="Gallery image 11"></a>
+        <a href="IMG_5902_12.jpg"><img src="tn_IMG_5902_12.jpg" alt="Gallery image 12"></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    Grimwood Family Portal.
+  </footer>
+</body>
+</html>
+
